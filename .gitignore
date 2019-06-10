@@ -1,0 +1,7 @@
+.doc/
+.docz/
+coverage/
+node_modules/
+dist/
+es/
+lib/

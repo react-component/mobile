@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "es5",
+    "jsx": "preserve",
+    "noEmit": true
+  },
+  "exclude": ["node_modules"]
+}

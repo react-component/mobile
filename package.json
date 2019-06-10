@@ -1,0 +1,38 @@
+{
+  "name": "react-component-mobile",
+  "private": true,
+  "scripts": {
+    "compile": "father build",
+    "lint": "npm run prettier -- -l",
+    "format": "npm run prettier -- --write",
+    "prettier": "prettier \"packages/*/src/**/*.{ts,tsx}\"",
+    "ci": "npm run lint && npm run types-test && npm run test && npm run compile",
+    "doc": "father doc dev",
+    "doc:deploy": "father doc build && father doc deploy",
+    "test": "umi-test --coverage",
+    "types-test": "tsc",
+    "codecov": "cat ./coverage/lcov.info | codecov",
+    "bootstrap": "lerna bootstrap --hoist",
+    "prepub": "npm run ci",
+    "prepub:alpha": "npm run ci",
+    "pub:alpha": "lerna publish prerelease --from-package --yes --dist-tag alpha -m \"release: %v [skip ci]\"",
+    "pub": "lerna publish --from-package --yes --conventional-commits --conventional-graduate --changelog-preset angular -m \"release: %v [skip ci]\""
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.9.3",
+    "@types/jest": "^24.0.13",
+    "@types/react": "^16.8.19",
+    "codecov": "^3.5.0",
+    "husky": "^2.4.0",
+    "lerna": "^3.15.0",
+    "prettier": "^1.18.2",
+    "shelljs": "^0.8.3",
+    "father": "^2.6.5",
+    "umi-test": "^1.5.10"
+  },
+  "husky": {
+    "hooks": {
+      "prepush": "npm run ci"
+    }
+  }
+}
