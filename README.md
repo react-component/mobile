@@ -18,10 +18,11 @@ ant design mobile components
 1. Create a pull request(pr) from develop to master
 2. Merge the pull request
 3. Have a coffee, and the circleci will release automatically
+4. Note, after release, the develop branch will also update by bot. You can't merge pull request util the branch develop is up-to-date
 
 ### Release alpha
 
-As the Release above, but you need merge develop to alpha branch instead of master
+As the Release above, but you need merge develop to alpha branch instead of master and alpha release doesn't push to develop branch
 
 ### Doc
 

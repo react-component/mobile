@@ -14,6 +14,9 @@ try {
   } else {
     shell.exec('npm run pub');
     shell.echo('Publish success!!');
+
+    shell.exec('git push origin $(git rev-parse --abbrev-ref HEAD):develop');
+    shell.echo('Push to github develop success!!');
   }
 } catch (error) {
   console.error('Publish error', error);
