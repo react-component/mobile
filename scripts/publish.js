@@ -21,10 +21,9 @@ try {
   } else {
     exec('npm run pub');
     shell.echo('Publish success!!');
-
-    exec('git push origin $(git rev-parse --abbrev-ref HEAD):develop');
-    shell.echo('Push to github develop success!!');
   }
+  exec('git push origin $(git rev-parse --abbrev-ref HEAD):develop');
+  shell.echo('Push to github develop success!!');
 } catch (error) {
   console.error('Publish error');
   process.exit(1);

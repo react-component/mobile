@@ -22,7 +22,7 @@ ant design mobile components
 
 ### Release alpha
 
-As the Release above, but you need merge develop to alpha branch instead of master and alpha release doesn't push to develop branch
+As the Release above, but you need merge develop to alpha branch instead of master
 
 ### Doc
 
