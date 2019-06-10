@@ -16,7 +16,7 @@
     "prepub": "npm run ci",
     "prepub:alpha": "npm run ci",
     "pub:alpha": "lerna publish prerelease --yes --dist-tag alpha -m \"release: [skip ci]\"",
-    "pub": "lerna publish --yes --conventional-commits --changelog-preset angular -m \"release: [skip ci]\""
+    "pub": "lerna publish --yes --conventional-commits --conventional-graduate --changelog-preset angular -m \"release: [skip ci]\""
   },
   "devDependencies": {
     "@types/enzyme": "^3.9.3",
