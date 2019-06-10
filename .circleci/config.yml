@@ -99,16 +99,8 @@ workflows:
   version: 2
   build:
     jobs:
-      - build_node_10:
-          filters:
-            branches:
-              ignore:
-                - gh-pages
-      - build_node_12:
-          filters:
-            branches:
-              ignore:
-                - gh-pages
+      - build_node_10
+      - build_node_12
 
   release-alpha:
     jobs:
