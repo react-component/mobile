@@ -1,7 +1,5 @@
 {
   "npmClient": "npm",
-  "packages": [
-    "packages/*"
-  ],
-  "version": "0.1.1-alpha.0"
+  "packages": ["packages/*"],
+  "version": "independent"
 }
