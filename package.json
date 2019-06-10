@@ -15,8 +15,8 @@
     "bootstrap": "lerna bootstrap --hoist",
     "prepub": "npm run ci",
     "prepub:alpha": "npm run ci",
-    "pub:alpha": "lerna publish prerelease --from-package --yes --dist-tag alpha -m \"release: %v [skip ci]\"",
-    "pub": "lerna publish --from-package --yes --conventional-commits --conventional-graduate --changelog-preset angular -m \"release: %v [skip ci]\""
+    "pub:alpha": "lerna publish prerelease --yes --dist-tag alpha -m \"release: %v [skip ci]\"",
+    "pub": "lerna publish --yes --conventional-commits --conventional-graduate --changelog-preset angular -m \"release: %v [skip ci]\""
   },
   "devDependencies": {
     "@types/enzyme": "^3.9.3",
