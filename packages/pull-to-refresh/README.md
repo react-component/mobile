@@ -1,4 +1,4 @@
-# rmc-pull-to-refresh
+# @antd-mobile/pull-to-refresh
 
 ---
 

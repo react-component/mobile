@@ -7,7 +7,7 @@
     "format": "npm run prettier -- --write",
     "prettier": "prettier \"packages/*/src/**/*.{ts,tsx}\"",
     "ci": "npm run lint && npm run types-test && npm run test && npm run compile",
-    "doc": "father doc dev",
+    "start": "father doc dev",
     "doc:deploy": "father doc build && father doc deploy",
     "test": "umi-test --coverage",
     "types-test": "tsc",
