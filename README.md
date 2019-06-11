@@ -24,13 +24,13 @@ ant design mobile components
 
 As the Release above, but you need merge develop to alpha branch instead of master
 
-### Doc
+### Doc/Develop
 
 You can add examples dir to each package with `*.mdx` as what `pull-to-refresh` done
 
 It will auto update after Release(or Release alpha) by circleci
 
-`npm run doc` can run examples locally
+`npm run start` can run examples locally
 
 ### License
 
