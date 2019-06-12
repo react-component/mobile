@@ -5,4 +5,5 @@ export default {
   doc: {
     typescript: true,
   },
+  extractCSS: true,
 };
