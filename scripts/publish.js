@@ -11,7 +11,7 @@ const $BRANCH = process.env.BRANCH;
 
 try {
   exec('git config --global user.name "antd-mobile-bot"');
-  exec('git config --global user.email "antd-mobile-bot@darlin.me"');
+  exec('git config --global user.email "antd-mobile@cloud.alipay.com"');
 
   exec('git rev-parse --abbrev-ref HEAD');
 
