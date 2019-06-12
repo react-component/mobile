@@ -1,8 +1,6 @@
 import * as React from 'react';
 import PullToRefresh from '../src';
 
-import './index.less';
-
 const Lv: React.FunctionComponent<{
   pullToRefresh: React.FunctionComponentElement<any>;
 }> = props => {
