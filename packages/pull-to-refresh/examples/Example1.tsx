@@ -1,8 +1,6 @@
 import * as React from 'react';
 import PullToRefresh from '../src';
 
-import './index.less';
-
 const Example1: React.FunctionComponent = props => {
   const [refreshing, setRefreshing] = React.useState(false);
   const [switchContainer, setSwitchContainer] = React.useState(false);
