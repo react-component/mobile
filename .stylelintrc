@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "stylelint-config-idiomatic-order",
+    "stylelint-config-standard"
+  ],
+  "rules": {
+    "selector-pseudo-class-no-unknown": [true, {
+      ignorePseudoClasses: ["global"]
+    }],
+    "block-closing-brace-newline-before": null
+  }
+}
