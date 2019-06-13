@@ -4,6 +4,8 @@ ant design mobile components
 
 ### Packages
 
+- @antd-mobile/dialog
+- @antd-mobile/feedback
 - @antd-mobile/pull-to-refresh
 
 ### Develop
