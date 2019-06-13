@@ -1,6 +1,6 @@
 {
-  "name": "@antd-mobile/pull-to-refresh",
-  "version": "0.3.2-alpha.0",
+  "name": "@antd-mobile/dialog",
+  "version": "0.0.1-alpha.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/react-component/mobile.git"
@@ -19,13 +19,16 @@
   ],
   "dependencies": {
     "@babel/runtime": "^7.4.5",
-    "classnames": "^2.2.6"
+    "classnames": "^2.2.6",
+    "rc-animate": "2.x"
   },
   "devDependencies": {
     "@types/classnames": "^2.2.8",
-    "react": "^16.8.6"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "peerDependencies": {
-    "react": "*"
+    "react": "*",
+    "react-dom": "*"
   }
 }
