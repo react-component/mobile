@@ -1,9 +1,11 @@
 {
-  "vendors.js": "/static/js/vendors.c8f10c0f.js",
-  "app.js": "/static/js/app.664c80a7a97e807fc439.js",
-  "packages-feedback-examples-index.css": "/static/css/packages-feedback-examples-index.664c80a7a97e807fc439.css",
-  "packages-feedback-examples-index.js": "/static/js/packages-feedback-examples-index.aa82a1a0.js",
-  "packages-pull-to-refresh-examples-index.css": "/static/css/packages-pull-to-refresh-examples-index.664c80a7a97e807fc439.css",
-  "packages-pull-to-refresh-examples-index.js": "/static/js/packages-pull-to-refresh-examples-index.44446703.js",
+  "vendors.js": "/static/js/vendors.613a7d86.js",
+  "app.js": "/static/js/app.f1a0b0fed355862622a1.js",
+  "packages-dialog-examples-index.css": "/static/css/packages-dialog-examples-index.f1a0b0fed355862622a1.css",
+  "packages-dialog-examples-index.js": "/static/js/packages-dialog-examples-index.b42fce0e.js",
+  "packages-feedback-examples-index.css": "/static/css/packages-feedback-examples-index.f1a0b0fed355862622a1.css",
+  "packages-feedback-examples-index.js": "/static/js/packages-feedback-examples-index.65ab4c9e.js",
+  "packages-pull-to-refresh-examples-index.css": "/static/css/packages-pull-to-refresh-examples-index.f1a0b0fed355862622a1.css",
+  "packages-pull-to-refresh-examples-index.js": "/static/js/packages-pull-to-refresh-examples-index.715fb566.js",
   "index.html": "/index.html"
 }
