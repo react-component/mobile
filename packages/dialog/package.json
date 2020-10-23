@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@types/classnames": "^2.2.8",
-    "react": "^16.8.6",
+    "react": "^17.0.1",
     "react-dom": "^16.8.6"
   },
   "peerDependencies": {
