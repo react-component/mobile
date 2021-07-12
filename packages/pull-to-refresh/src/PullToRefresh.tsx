@@ -214,7 +214,10 @@ export default class PullToRefresh extends React.Component<IPropsType, IState> {
 
         this.setState({ dragOnEdge: true });
       }
-      e.preventDefault();
+      
+      //https://github.com/ant-design/ant-design-mobile/issues/3184
+      if(e.cancelable)
+        e.preventDefault();
       // add stopPropagation with fastclick will trigger content onClick event. why?
       // ref https://github.com/ant-design/ant-design-mobile/issues/2141
       // e.stopPropagation();
